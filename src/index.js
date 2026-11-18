@@ -3,7 +3,7 @@
 export const VERSION = "1.0.0";
 
 // 掃描器與自動化工具常見的 User-Agent 關鍵字
-export const BOT_UA = /bot|crawl|spider|scan|preview|proxy|python|curl|wget|headless|phantom|httpclient|okhttp|java\/|go-http|libwww|safelinks|barracuda|proofpoint|mimecast|fireeye|trendmicro|symantec|sophos|forcepoint|ironport|zscaler|appriver|cisco/i;
+export const BOT_UA = /bot|crawl|spider|scan|preview|proxy|python|curl|wget|headless|phantom|httpclient|okhttp|java\/|go-http|libwww|safe ?links|barracuda|proofpoint|mimecast|fireeye|trendmicro|symantec|sophos|forcepoint|ironport|zscaler|appriver|cisco/i;
 
 export const DEFAULTS = {
   clickMinAgeSec: 60,   // 寄出後 N 秒內的點擊視為掃描（真人幾乎不可能這麼快）
