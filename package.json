@@ -1,0 +1,14 @@
+{
+  "name": "email-click-bot-filter",
+  "version": "1.0.0",
+  "description": "電子報點擊與開信的機器人過濾：分出信箱安全掃描（Safe Links、Barracuda、Proofpoint…）和真人點擊，讓開信率、點擊率回到真實數字。",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": "./src/index.js",
+  "files": ["src"],
+  "scripts": { "test": "node --test" },
+  "engines": { "node": ">=18" },
+  "keywords": ["email", "click-tracking", "bot-detection", "email-security-scanner", "safe-links", "newsletter", "email-marketing", "電子報", "點擊率"],
+  "homepage": "https://ai.hostswp.com/ai-adoption/",
+  "license": "MIT"
+}
